@@ -6,7 +6,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/switch_config.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-1">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.18" type="ipv4" netmask="255.255.255.0"/>
@@ -22,7 +22,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/switch_config.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-3">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.20" type="ipv4" netmask="255.255.255.0"/>
@@ -38,7 +38,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/switch_config.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-0">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.17" type="ipv4" netmask="255.255.255.0"/>
@@ -66,7 +66,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/switch_config.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-4">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.21" type="ipv4" netmask="255.255.255.0"/>
@@ -95,7 +95,7 @@
 
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-14">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.7" type="ipv4" netmask="255.255.255.0"/>
@@ -109,7 +109,7 @@
 
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-16">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.9" type="ipv4" netmask="255.255.255.0"/>
@@ -137,7 +137,7 @@
 
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-20">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.13" type="ipv4" netmask="255.255.255.0"/>
@@ -151,7 +151,7 @@
 
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-22">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.15" type="ipv4" netmask="255.255.255.0"/>
@@ -165,7 +165,7 @@
 
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-12">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.5" type="ipv4" netmask="255.255.255.0"/>
@@ -179,7 +179,7 @@
 
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-10">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.3" type="ipv4" netmask="255.255.255.0"/>
@@ -193,7 +193,7 @@
 
 
 <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
-<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENI-BGP/raw/master/setup.tar.gz" install_path="/usr/local"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-8">
 <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.1" type="ipv4" netmask="255.255.255.0"/>
