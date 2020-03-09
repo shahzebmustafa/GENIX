@@ -5,7 +5,7 @@
 <hardware_type xmlns="http://www.geni.net/resources/rspec/3" name="orca-vm-cloud"/>
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/switch_config.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Switch/switch_config.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-1">
@@ -21,7 +21,7 @@
 <hardware_type xmlns="http://www.geni.net/resources/rspec/3" name="orca-vm-cloud"/>
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/switch_config.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Switch/switch_config.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-3">
@@ -37,7 +37,7 @@
 <hardware_type xmlns="http://www.geni.net/resources/rspec/3" name="orca-vm-cloud"/>
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/switch_config.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Switch/switch_config.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-0">
@@ -65,7 +65,7 @@
 <hardware_type xmlns="http://www.geni.net/resources/rspec/3" name="orca-vm-cloud"/>
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/switch_config.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Switch/switch_config.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-4">
@@ -94,7 +94,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Router/install_frr.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-14">
@@ -108,7 +108,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Router/install_frr.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-16">
@@ -122,7 +122,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Router/install_frr.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-18">
@@ -136,7 +136,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Router/install_frr.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-20">
@@ -150,7 +150,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Router/install_frr.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-22">
@@ -164,7 +164,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Router/install_frr.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-12">
@@ -178,7 +178,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Router/install_frr.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-10">
@@ -192,7 +192,7 @@
 <services xmlns="http://www.geni.net/resources/rspec/3">
 
 
-<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/install_frr.sh" shell="/bin/sh"/>
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo bash /usr/local/GENIX/Router/install_frr.sh" shell="/bin/sh"/>
 <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/shahzebmustafa/GENIX/raw/master/setup.tar.gz" install_path="/usr/local"/>
 </services>
 <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-8">
