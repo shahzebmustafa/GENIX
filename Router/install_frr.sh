@@ -150,7 +150,17 @@ sudo echo "net.mpls.platform_labels=100000" >> /etc/sysctl.conf
 sudo install -m 644 tools/frr.service /etc/systemd/system/frr.service
 sudo systemctl enable frr
 
+# Installing Packages
+
 pip install netifaces
+
+sudo apt-get install -y python-matplotlib
+
+sudo apt-get install -y python-scipy
+
+pip install statistics
+
+# Installing Packages
 
 sudo sed -i 's/bgpd=no/bgpd=yes/g' /etc/frr/daemons
 
