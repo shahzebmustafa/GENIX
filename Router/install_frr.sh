@@ -150,6 +150,8 @@ sudo echo "net.mpls.platform_labels=100000" >> /etc/sysctl.conf
 sudo install -m 644 tools/frr.service /etc/systemd/system/frr.service
 sudo systemctl enable frr
 
+pip install netifaces
+
 sudo sed -i 's/bgpd=no/bgpd=yes/g' /etc/frr/daemons
 
 sudo rm /etc/frr/frr.conf
