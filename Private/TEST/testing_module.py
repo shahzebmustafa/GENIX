@@ -22,26 +22,26 @@ with open('pingall.sh', 'rb') as file:
 rc = call(script, shell=True)
 
 
-directories = os.listdir("Data/Ping")
-
-for d in directories:
-    if os.path.isdir('Data/Ping/'+d):
-        path = 'Data/Ping/'+d
-        Y ={}
-        for f in os.listdir(path):
-            with open(path+'/'+f,'r') as dt:
-                lines = dt.readlines()
-                lines = lines[6:-5]
-                sample = []
-                for line in lines:
-                    sample = sample +  [float(re.findall(r"[-+]?\d*\.\d+|\d+", line)[-1])]
-                Y[f.replace('.ping.txt','')] = np.array(sample)
+files = os.listdir("Data/Ping")
+Y = {}
+for f in files:
+    if(f == '.gitkeep'):
+        continue
+    print f
+    path = 'Data/Ping'
+    with open(path+'/'+f,'r') as dt:
+        lines = dt.readlines()
+        lines = lines[6:-5]
+        sample = []
+        for line in lines:
+            sample.append(float(re.findall(r"[-+]?\d*\.\d+|\d+", line)[-1]))
+        Y[f.replace('.ping.txt','')] = sample
 
         X = range(0,1000)
         C = {1:'#EC7063', 2:'#A569BD', 3:'#5499C7', 4:'#F7DC6F', 5:'#52BE80', 6:'#F5B041', 7:'#566573', 8:'#5DADE2'}
 
         for k,v in Y.items():
-		w = savgol_filter(Y[k], 79, 2)
+            w = savgol_filter(Y[k], 79, 2)
         	plt.plot(X, w, color=C[ip_list[k]], label=ip_list[k], linewidth=2)
 		plt.legend(bbox_to_anchor=(1.05, 1), borderaxespad=0., loc='upper left', prop={"size":12.5})
 
