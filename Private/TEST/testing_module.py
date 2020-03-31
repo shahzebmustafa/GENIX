@@ -1,6 +1,7 @@
 import subprocess
+from subprocess import call
 import re
-import numpy as np
+#import numpy as np
 import matplotlib.pyplot as plt
 import os
 from scipy.signal import savgol_filter
@@ -35,15 +36,15 @@ for d in directories:
                 for line in lines:
                     sample = sample +  [float(re.findall(r"[-+]?\d*\.\d+|\d+", line)[-1])]
                 Y[f.replace('.ping.txt','')] = np.array(sample)
-                
+
         X = range(0,1000)
         C = {1:'#EC7063', 2:'#A569BD', 3:'#5499C7', 4:'#F7DC6F', 5:'#52BE80', 6:'#F5B041', 7:'#566573', 8:'#5DADE2'}
-        
+
         for k,v in Y.items():
-        	w = savgol_filter(Y[k], 79, 2)
+		w = savgol_filter(Y[k], 79, 2)
         	plt.plot(X, w, color=C[ip_list[k]], label=ip_list[k], linewidth=2)
-			plt.legend(bbox_to_anchor=(1.05, 1), borderaxespad=0., loc='upper left', prop={"size":12.5})
-                
+		plt.legend(bbox_to_anchor=(1.05, 1), borderaxespad=0., loc='upper left', prop={"size":12.5})
+
         plt.axis([0, 1000, 0.1, 0.6])
         plt.xlabel('Ping', fontsize=12)
         plt.ylabel('Round Trip Time (ms)', fontsize=12)
