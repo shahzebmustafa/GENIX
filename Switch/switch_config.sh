@@ -21,5 +21,5 @@ for ((i = 1 ; i < l-1 ; i++)); do
 	sudo  ovs-vsctl add-port br0 ${iface_list[$i]}
 done
 
-sudo ovs-vsctl set-controller br0 tcp:198.82.156.48:6633
-sudo ovs-vsctl set-fail-mode br0 secure
+sudo ovs-vsctl set-controller br0 tcp:72.36.65.65:6653
+sudo ovs-vsctl set-fail-mode br0 standalone
